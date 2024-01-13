@@ -40,12 +40,14 @@ header{
 
 header h1{
     font-family: var(--fonte-destaque);
-    padding: 30px 0px 20px 0px;
+    padding: 30px 0px 10px 0px;
+    font-size: 2.5em;
+    font-weight: normal;
 }
 
 nav{
     background-image: linear-gradient(#1a5c37, #063d1e);
-    padding-bottom: 5px;
+    padding: 5px 0px 5px 0px;
 }
 
 nav a{
@@ -64,7 +66,7 @@ main{
     background-color: white;
     max-width: 800px;
     margin: auto;
-    padding: 0px 10px 5px 10px;
+    padding: 0px 10px 10px 10px;
     border-radius: 0px 0px 10px 10px;
 }
 
@@ -76,6 +78,12 @@ main img.pequena{
     width: 50%;
     display: block;
     margin: auto;
+}
+
+main iframe{
+    display: block;
+    margin: 15px auto 15px auto;
+    width: 100%;
 }
 
 main  p{
@@ -90,7 +98,7 @@ main h1, h2{
 }
 
 main h1{
-    padding: 10px 0px 10px 0px;
+    padding: 15px 0px 10px 0px;
 }
 
 main h2{
@@ -100,8 +108,34 @@ main h2{
     font-size: 1.2em;
 }
 
+main aside{
+    border-radius: 10px;
+    background-color: var(--cor0);
+    padding-bottom: 10px;
+}
+
+main h3{
+    color: white;
+    background-color: var(--cor3);
+    padding: 10px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+main aside ul {
+    padding-left: 55px;
+}
+
 footer{
+    padding: 5px 0px 5px 0px;
     margin-top: 10px;
     background-color: var(--cor5);
+    color: white;
+    text-align: center;
+    font-size: 0.8em;
+}
+
+footer a{
+    text-decoration: none;
+    font-weight: bold;
     color: white;
 }
